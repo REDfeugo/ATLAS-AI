@@ -1,0 +1,1 @@
+Atlas is a personal AI experiment focused on offline-first workflows. It combines Streamlit, FastAPI, SQLite, and Ollama to create a modular assistant that respects privacy.

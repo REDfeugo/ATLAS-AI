@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Pull llama3",
+    "description": "Run `ollama pull llama3:instruct` to download the offline model.",
+    "due_date": "2024-07-01",
+    "tags": ["model", "setup"]
+  },
+  {
+    "title": "Log first idea",
+    "description": "Create a note using the Streamlit UI to capture inspiration.",
+    "due_date": "2024-07-02",
+    "tags": ["notes"]
+  }
+]
