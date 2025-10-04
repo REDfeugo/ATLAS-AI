@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.env
+.venv/
+venv/
+
+# Logs and local data
+logs/
+*.log
+atlas.db
+brand/generated/
+
+# Streamlit
+.streamlit/
+!.streamlit/
+
+# VSCode and IDEs
+.vscode/
+.idea/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Docker
+*.pid
+!.streamlit/config.toml
