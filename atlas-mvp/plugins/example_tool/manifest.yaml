@@ -1,3 +1,0 @@
-name: Local Knowledge Summariser
-entrypoint: example_tool.py
-description: Summarises the bundled knowledge.txt file for quick recall.

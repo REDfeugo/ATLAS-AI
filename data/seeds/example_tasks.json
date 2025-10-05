@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Pull llama3.2:3b",
+    "description": "Run `ollama pull llama3.2:3b` to load the default local model.",
+    "due_date": "2024-07-01",
+    "tags": ["model", "setup"]
+  },
+  {
+    "title": "Wire OpenAI fallback",
+    "description": "Add OPENAI_API_KEY to .env and restart make run to test cloud mode.",
+    "due_date": "2024-07-03",
+    "tags": ["cloud", "optional"]
+  },
+  {
+    "title": "Record welcome macro",
+    "description": "Use the Voice & Control page to capture a short transcription demo.",
+    "due_date": "2024-07-05",
+    "tags": ["voice", "demo"]
+  },
+  {
+    "title": "Index Documents folder",
+    "description": "Run `make index-docs` to build the semantic search index for documents.",
+    "due_date": "2024-07-07",
+    "tags": ["memory", "rag"]
+  },
+  {
+    "title": "Draft automation plan",
+    "description": "Try the planner example: Open Notepad, type 'Hello Atlas', save, read back.",
+    "due_date": "2024-07-09",
+    "tags": ["planner", "skills"]
+  }
+]

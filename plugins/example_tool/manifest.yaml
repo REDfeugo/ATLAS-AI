@@ -1,0 +1,4 @@
+name: Local Knowledge Summariser
+entrypoint: example_tool:run
+description: Summarises the bundled knowledge.txt file for quick recall.
+permission: ask

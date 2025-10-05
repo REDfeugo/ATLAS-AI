@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Atlas mission statement",
+    "content": "Atlas empowers you to run a personal AI offline-first with friendly tooling.",
+    "tags": ["vision", "ai"]
+  },
+  {
+    "title": "Local-first checklist",
+    "content": "1. Install Ollama\n2. Pull llama3.2:3b\n3. Run make run",
+    "tags": ["setup"]
+  },
+  {
+    "title": "Voice testing plan",
+    "content": "Use push-to-talk to capture a greeting, verify transcript, and play TTS response.",
+    "tags": ["voice", "qa"]
+  },
+  {
+    "title": "Planner demo script",
+    "content": "Prompt: Open Notepad, type 'Hello Atlas', save to Desktop as hello.txt, then read it back.",
+    "tags": ["planner"]
+  },
+  {
+    "title": "Plugin ideas",
+    "content": "1. Screenshot annotator\n2. Markdown daily journal\n3. Browser automation for research",
+    "tags": ["plugins", "brainstorm"]
+  }
+]
