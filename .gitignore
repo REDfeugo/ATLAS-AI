@@ -1,0 +1,40 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments & local env files
+.env
+.venv/
+venv/
+
+# Logs and generated assets
+logs/
+*.log
+atlas.db
+brand/generated/
+brand/splash/
+
+# Runtime data buckets (kept local-only)
+data/audio/
+data/logs/
+data/storage/screens/
+
+# Streamlit config (keep tracked config.toml)
+.streamlit/
+!.streamlit/config.toml
+
+# Editor settings
+.vscode/
+.idea/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Docker runtime bits
+*.pid

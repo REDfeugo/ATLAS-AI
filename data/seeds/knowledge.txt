@@ -1,0 +1,32 @@
+Atlas keeps everything offline-first so you can work on confidential projects without
+worrying about cloud leaks.
+
+The HP EliteBook 830 G5 has four cores and eight threads, which is enough to run a 3B
+quantised model from Ollama while still leaving headroom for background tasks.
+
+Voice control defaults to push-to-talk. Wake-word mode is optional because it requires a
+continuous audio stream and increases CPU usage.
+
+The planner is heuristic in this release; swapping in an LLM only requires updating
+`PlannerService.generate_plan` with a call to Ollama or OpenAI and handling JSON output.
+
+Windows automation relies on pywinauto, pyautogui, psutil, and pyperclip. Each module is
+wrapped in skills that gracefully degrade when imports fail.
+
+Semantic search combines notes, tasks, chats, and optional Documents indexing so the
+assistant can recall project context quickly.
+
+Brand colours follow the black (#0B0B0E) and gold (#E5B80B) motif, with slate surfaces and
+ink text for secondary emphasis.
+
+Plugins live inside the `plugins/` directory and expose a `run(payload)` callable. They can
+read local files, query APIs, or orchestrate automation once permission is granted.
+
+Use slash commands like `/task add "Ship v0.7" --due 2024-08-01` inside chat to convert
+conversation into structured actions without leaving the conversation flow.
+
+Documents indexing is optional—set `INDEX_DOCUMENTS=true` and run `make index-docs` to
+chunk text files from your Documents folder into the RAG pipeline.
+
+The professional butler voice uses pyttsx3 with a moderate speech rate so responses feel
+relaxed but still efficient.

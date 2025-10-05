@@ -1,0 +1,114 @@
+:root {
+  --atlas-black: #0b0b0e;
+  --atlas-gold: #e5b80b;
+  --atlas-slate: #1a1b22;
+  --atlas-ink: #c9ccd6;
+  --atlas-white: #f7f7fa;
+  --atlas-radius: 12px;
+}
+
+body {
+  background-color: var(--atlas-black);
+  color: var(--atlas-white);
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.atlas-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, rgba(229, 184, 11, 0.1), rgba(229, 184, 11, 0.02));
+  border-radius: var(--atlas-radius);
+  border: 1px solid rgba(229, 184, 11, 0.2);
+}
+
+.atlas-header__title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.atlas-header__title img {
+  height: 48px;
+}
+
+.atlas-header__title h1 {
+  margin: 0;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.atlas-header__status {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.atlas-chip {
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(201, 204, 214, 0.35);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.atlas-chip--ok {
+  color: var(--atlas-black);
+  background-color: var(--atlas-gold);
+}
+
+.atlas-chip--warn {
+  color: var(--atlas-white);
+  background-color: rgba(229, 184, 11, 0.2);
+  border-color: rgba(229, 184, 11, 0.55);
+}
+
+.atlas-badge {
+  background-color: rgba(229, 184, 11, 0.12);
+  color: var(--atlas-gold);
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.atlas-empty {
+  border: 1px dashed rgba(201, 204, 214, 0.25);
+  border-radius: var(--atlas-radius);
+  padding: 1.75rem;
+  text-align: center;
+  color: var(--atlas-ink);
+}
+
+.atlas-link {
+  color: var(--atlas-gold);
+}
+
+
+.atlas-bubble {
+  padding: 0.9rem 1rem;
+  border-radius: 16px;
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  border: 1px solid rgba(229, 184, 11, 0.18);
+  box-shadow: 0 8px 24px rgba(11, 11, 14, 0.45);
+}
+
+.atlas-bubble--assistant {
+  background: rgba(229, 184, 11, 0.08);
+  color: var(--atlas-white);
+}
+
+.atlas-bubble--user {
+  background: rgba(201, 204, 214, 0.12);
+  color: var(--atlas-white);
+  text-align: right;
+}
+

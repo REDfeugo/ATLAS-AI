@@ -1,0 +1,6 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="32" fill="#0B0B0E"/>
+  <circle cx="128" cy="120" r="60" stroke="#E5B80B" stroke-width="12" fill="none"/>
+  <circle cx="128" cy="120" r="8" fill="#F7F7FA"/>
+  <text x="128" y="214" text-anchor="middle" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="32" fill="#F7F7FA">ORION</text>
+</svg>
