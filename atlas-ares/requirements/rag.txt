@@ -1,0 +1,5 @@
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0.post1
+annoy==1.17.3
+scikit-learn==1.5.1
+numpy==2.0.1
